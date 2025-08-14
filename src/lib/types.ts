@@ -13,8 +13,4 @@ export type OgConfig = {
   type?: "website" | "article" | "product" | string;
   locale?: string;
   images: OgImage[];
-  // Optional Twitter crosswalk
-  twitterCard?: "summary" | "summary_large_image";
-  twitterSite?: string;     // e.g., @brand
-  twitterCreator?: string;  // e.g., @author
 };

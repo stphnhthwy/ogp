@@ -64,33 +64,6 @@ export default function EditorForm({
         />
       </div>
 
-      <div className="grid grid-cols-3 gap-2">
-        <div>
-          <label className="block text-sm font-medium">Twitter Card</label>
-          <input
-            className="w-full border rounded px-2 py-1"
-            value={config.twitterCard || ""}
-            onChange={e => upd("twitterCard", e.target.value as any)}
-          />
-        </div>
-        <div>
-          <label className="block text-sm font-medium">Twitter Site</label>
-          <input
-            className="w-full border rounded px-2 py-1"
-            value={config.twitterSite || ""}
-            onChange={e => upd("twitterSite", e.target.value)}
-          />
-        </div>
-        <div>
-          <label className="block text-sm font-medium">Twitter Creator</label>
-          <input
-            className="w-full border rounded px-2 py-1"
-            value={config.twitterCreator || ""}
-            onChange={e => upd("twitterCreator", e.target.value)}
-          />
-        </div>
-      </div>
-
       <div>
         <label className="block text-sm font-medium mb-1">Images</label>
         <ImageList

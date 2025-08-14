@@ -29,7 +29,7 @@
     "eslint": "^8.56.0",
     "@typescript-eslint/eslint-plugin": "^6.16.0",
     "@typescript-eslint/parser": "^6.16.0",
-    "playwright": "^1.45.0",
+    "@playwright/test": "^1.45.0",
     "concurrently": "^8.2.0",
     "@eslint/js": "^8.56.0",
     "typescript-eslint": "^7.5.0",

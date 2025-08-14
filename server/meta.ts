@@ -25,9 +25,6 @@ export async function scrapeMetaToConfig(url: string): Promise<OgConfig> {
     type: get("og:type") || "website",
     locale: get("og:locale") || "en_US",
     images: images.length ? images : [],
-    twitterCard: (get("twitter:card") as any) || undefined,
-    twitterSite: get("twitter:site") || undefined,
-    twitterCreator: get("twitter:creator") || undefined,
   };
 
   // Attach width/height/alt if present
