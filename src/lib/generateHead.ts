@@ -24,9 +24,5 @@ export function generateHead(config: OgConfig): string {
     if (img.alt) out.push(`<meta property="og:image:alt" content="${esc(img.alt)}">`);
   }
 
-  if (config.twitterCard) out.push(`<meta name="twitter:card" content="${config.twitterCard}">`);
-  if (config.twitterSite) out.push(`<meta name="twitter:site" content="${esc(config.twitterSite)}">`);
-  if (config.twitterCreator) out.push(`<meta name="twitter:creator" content="${esc(config.twitterCreator)}">`);
-
   return out.join("\n");
 }

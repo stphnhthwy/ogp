@@ -8,9 +8,6 @@ export const sampleConfig: OgConfig = {
   type: "website",
   locale: "en_US",
   images: [
-    { url: "/og-placeholder.svg", width: 1200, height: 630, alt: "Cup of coffee on a table" }
+    { url: "/og-placeholder.svg", width: 1200, height: 630, alt: "Cup of coffee on a table" },
   ],
-  twitterCard: "summary_large_image",
-  twitterSite: "@example",
-  twitterCreator: "@barista",
 };
